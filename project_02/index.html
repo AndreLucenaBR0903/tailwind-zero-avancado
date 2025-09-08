@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uber - Nunca foi tão fácil viajar!</title>
     <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header class="w-full bg-black px-4">
+      <div class="h-24 mx-auto max-w-7xl flex items-center justify-between">
+        <div class="flex items-center gap-6">
+          <img
+            src="./assets/images/uberlogo.png"
+            alt="Logo do Uber"
+            class="w-20"
+          />
+          <nav class="hidden md:flex items-center gap-4">
+            <a
+              href="#"
+              class="text-white font-medium px-3 py-2 hover:bg-slate-800 rounded-xl duration-500"
+              >Company</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium px-3 py-2 hover:bg-slate-800 rounded-xl duration-500"
+              >Safeety</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium px-3 py-2 hover:bg-slate-800 rounded-xl duration-500"
+              >Help</a
+            >
+          </nav>
+        </div>
+        <div class="flex items-center justify-center gap-4">
+          <a href="" class="text-white font-medium">Login</a>
+          <a href="" class="bg-white font-medium px-2 py-1 rounded-full"
+            >Sign up</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- hero section -->
+    <section class="w-full bg-amber-600 h-[350px]">
+      <div class="mx-auto max-w-7xl">
+        <div class="bg-white max-w-lg w-full">
+          <!-- primeira seção -->
+          <div class="bg-slate-200 flex w-full items-start justify-between">
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-signal" style="font-size: 32px"></i>
+              <span class="text-center font-medium"
+                >Faça viajens ou entregas</span
+              >
+              <span class="w-full bg-black h-[2px]"></span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <i class="fa fa-car" style="font-size: 32px"></i>
+              <span class="text-center font-medium">Viajar</span>
+            </section>
+
+            <section
+              class="flex-1 pt-3 flex flex-col items-center justify-center gap-2"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="size-8"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15.75 1.5a6.75 6.75 0 0 0-6.651 7.906c.067.39-.032.717-.221.906l-6.5 6.499a3 3 0 0 0-.878 2.121v2.818c0 .414.336.75.75.75H6a.75.75 0 0 0 .75-.75v-1.5h1.5A.75.75 0 0 0 9 19.5V18h1.5a.75.75 0 0 0 .53-.22l2.658-2.658c.19-.189.517-.288.906-.22A6.75 6.75 0 1 0 15.75 1.5Zm0 3a.75.75 0 0 0 0 1.5A2.25 2.25 0 0 1 18 8.25a.75.75 0 0 0 1.5 0 3.75 3.75 0 0 0-3.75-3.75Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="text-center font-medium">Alugue seus carros</span>
+            </section>
+          </div>
+          <!-- segunda seção -->
+          <div class="flex flex-col gap-5 px-4 my-4">
+            <h1 class="font-bold text-4xl max-w-sm">
+              Assuma o comando e ganhe.
+            </h1>
+            <p class="max-w-sm">
+              Dirija na plataforma com a maior rede de usuários ativos.
+            </p>
+            <button
+              class="bg-black text-white self-start px-6 py-3 rounded-lg font-medium hover:bg-slate-800 duration-500 cursor-pointer"
+            >
+              Cadastre-se para dirigir
+            </button>
+            <a
+              href=""
+              class="text-gray-700 mt-7 mb-4 border-b-2 self-start pb-1"
+            >
+              Saiba mais sobre como dirigir e fazer entregas
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
