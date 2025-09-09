@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+/* @theme base {
+  backgroundImage {
+    'uber':"url('../assets/images/bguber.png')";
+    'city': "url('../assets/images/bg-city.png')";
+  }
+} */
+
+@utility bg-uber {
+  background-image: url("../assets/images/bguber.png");
+}
+
+@utility bg-city {
+  background-image: url("../assets/images/bg-city.png");
+}

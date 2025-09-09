@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <!-- header -->
+    <!-- header section-->
     <header class="w-full bg-black px-4">
       <div class="h-24 mx-auto max-w-7xl flex items-center justify-between">
         <div class="flex items-center gap-6">
@@ -47,9 +47,11 @@
       </div>
     </header>
     <!-- hero section -->
-    <section class="w-full bg-amber-600 h-[350px]">
+    <section
+      class="w-full bg-none lg:bg-uber bg-no-repeat bg-cover bg-left lg:py-9"
+    >
       <div class="mx-auto max-w-7xl">
-        <div class="bg-white max-w-lg w-full">
+        <div class="bg-white max-w-lg w-full md:mx-3 md:my-3">
           <!-- primeira seção -->
           <div class="bg-slate-200 flex w-full items-start justify-between">
             <section
@@ -107,6 +109,60 @@
             >
               Saiba mais sobre como dirigir e fazer entregas
             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA section -->
+    <section class="w-full bg-city bg-no-repeat bg-cover bg-right py-8 px-4">
+      <div class="w-full mx-auto max-w-7xl flex flex-col gap-5">
+        <h2 class="font-bold text-3xl w-full sm:max-w-2xl sm:text-5xl">
+          A plataforma Uber que você conhece, reinventada para empresas
+        </h2>
+        <p
+          class="w-full font-medium text-sm bg-white/70 p-3 rounded-lg sm:bg-none sm:max-w-2xl sm:text-base"
+        >
+          Uma plataforma simples para empresas de todos os portes administrarem
+          suas viagens e refeições globais e entregas locais.
+        </p>
+        <button
+          class="bg-black text-white px-5 py-2 sm:py-3 rounded-lg font-medium hover:bg-slate-800 duration-500 cursor-pointer w-full sm:max-w-80"
+        >
+          Começar
+        </button>
+      </div>
+    </section>
+    <!-- blog section -->
+    <section class="">
+      <div class="w-full px-4 flex flex-col mx-auto max-w-7xl my-10 gap-5">
+        <h2 class="text-3xl w-full md:max-w-2xl md:text-4xl font-bold">
+          Preocupados com a sua segurança, onde quer que você vá
+        </h2>
+        <div class="flex flex-col md:flex-row gap-5">
+          <div class="flex-1">
+            <img
+              src="./assets/images/post1.png"
+              alt="imagem postagem blog"
+              class=""
+            />
+            <h3 class="text-xl font-medium my-4">
+              Sua segurança é a nossa prioridade
+            </h3>
+            <p class="">
+              Com todos os recursos de segurança e todas as normas do nosso
+              Código da Comunidade Uber, estamos comprometidos em ajudar a criar
+              um ambiente seguro para nossos usuários.
+            </p>
+          </div>
+          <div class="flex-1">
+            <img src="./assets/images/post2.png" alt="" class="" />
+            <h3 class="text-xl font-medium my-4">
+              Colocamos mais de 10.000 cidades em movimento
+            </h3>
+            <p class="">
+              O app está disponível em milhares de cidades no mundo todo para
+              que você possa solicitar uma viagem mesmo longe de casa.
+            </p>
           </div>
         </div>
       </div>
