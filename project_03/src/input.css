@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@utility bg-tennis {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+}
