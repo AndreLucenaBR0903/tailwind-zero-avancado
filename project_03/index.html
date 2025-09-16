@@ -6,27 +6,50 @@
     <title>Desafio Nike</title>
     <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <body class="bg-cyan-100 w-full h-screen flex items-center justify-center">
+  <body class="w-full h-full">
     <div
-      class="bg-white w-3xl rounded-lg shadow-lg flex flex-col md:flex-row items-center justify-center"
+      class="w-full h-screen bg-slate-300 flex items-center justify-center p-3"
     >
-      <div class="flex-1 flex flex-col p-4">
-        <h3 class="hidden md:flex font-semibold flex-1">Sujeito Programador</h3>
-        <div class="flex-1 flex flex-col gap-1">
-          <h1 class="">Lançamento Nike Air</h1>
-          <span class="">O Tênis do futuro</span>
-          <p class="">O futuro a um passo do seu alcance!</p>
-          <a
-            href="#"
-            class="uppercase px-4 py-2 bg-gray-700 text-white self-start font-bold"
-            >Quero conhecer!</a
-          >
+      <!-- main -->
+      <main
+        class="bg-white h-[540px] w-full max-w-4xl shadow-lg flex flex-col md:flex-row items-center justify-center"
+      >
+        <!-- esquerda -->
+        <div
+          class="w-full md:w-1/2 h-full flex flex-col items-center justify-center mt-4"
+        >
+          <div class="w-full">
+            <h3 class="hidden md:block text-sm font-quick font-bold ml-4 mt-4">
+              Sujeito Programador
+            </h3>
+          </div>
+          <div class="w-full h-full flex items-center justify-center">
+            <div class="mb-4">
+              <h1 class="text-5xl mb-2 font-quick font-bold">
+                Lançamento <br />
+                <span class="">Nike Air</span>
+              </h1>
+              <p class="mb-2">O Tênis do futuro</p>
+              <p class="mb-5">O futuro a um passo do seu alcance!</p>
+              <button
+                class="uppercase bg-black text-white px-5 py-2 border-2 border-black cursor-pointer hover:bg-white hover:text-black duration-500"
+              >
+                Quero conhecer!
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="flex-1 h-[400px] flex items-end self-end bg-tennis">
-        <img src="./assets/tenis.png" alt="tenis nike" class="" />
-      </div>
+        <!-- direita -->
+        <div
+          class="w-full md:w-1/2 h-full bg-tennis flex items-center justify-center"
+        >
+          <img
+            src="./assets/tenis.png"
+            alt="Tenis Nike Air"
+            class="max-w-lg w-11/12 md:w-full object-cover z-30 hover:scale-110 md:hover:scale-125 md:hover:rotate-6 duration-300"
+          />
+        </div>
+      </main>
     </div>
   </body>
 </html>
